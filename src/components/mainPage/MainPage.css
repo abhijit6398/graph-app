@@ -1,0 +1,121 @@
+.main-page {
+    padding: 20px;
+    background-color: #e8f1f9;
+    min-height: 95vh;
+}
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-page h1 {
+    margin-top: 0.5rem;
+}
+
+.create-button-container {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.create-graph-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #083769;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-graph-button:hover {
+    background-color: #0056b3;
+}
+
+.graphs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.graph-card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.graph-card canvas {
+    width: 100%;
+    height: auto;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.view-button {
+    background-color: rgb(5, 9, 87);
+    border: none;
+    cursor: pointer;
+    font-size:1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.3rem;
+}
+
+.view-button {
+    color: rgb(242, 242, 247);
+}
+
+.delete-button {
+    background-color: #a00;
+    border: none;
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph-card h3 {
+    margin-bottom: 10px;
+}
+
+.graph-card p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.no-graphs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-graphs p {
+    font-size: 18px;
+    color: #888;
+}
